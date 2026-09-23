@@ -27,21 +27,45 @@ const celToKel = (celsius) => {
 
 const cToK = ( c ) => c + 273.15
 
-//Funcion que le pase como parametro dos numeros y me los ordene
+//EJ1-Funcion que le pase como parametro dos numeros y me los ordene
 
+function ordNum (num1, num2){
 
+  if(num1 <= num2){
 
-//Funcion que pase de celsius a kelvin pero comprobando que celsius es un numero, 
-//que la temperatura no puede estar por debajo del 0 absoluto (-273  ºK)
-//y el resultado me lo das con solo dos cifras decimales
-//isNaN <---- buscamos lo que significa
-// ¿como truncamos un numero a 2 cifras decimales?
+    return[num1, num2]
 
-if(xxxx){
+  }else{
 
-}else {
+    return[num2, num1]
 
+  }
 }
 
+//EJ2-Funcion que pase de celsius a kelvin pero comprobando que celsius es un numero, 
+//que la temperatura no puede estar por debajo del 0 absoluto (-273  ºK)
+//y el resultado me lo das con solo dos cifras decimales
+
+//isNaN <--- is not a number
+// ¿como truncamos un numero a 2 cifras decimales?
+
+function celToKel(celsius){
+
+  if(isNaN(celsius)){
+    
+    return "No es un numero valido"
+
+  }
+
+  if(celsius < 273.15) 
+
+    return "La temperatura es menor a -273"
+
+  }
+
+  let kelvin = celsius + 273.15
+
+  return Number(kelvin.toFixed(2))
+}
 
 
