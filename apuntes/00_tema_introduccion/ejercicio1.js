@@ -46,4 +46,18 @@ const segundos = 25
 
 edad >= 0 && edad > 18 ? console.log("El numero es positivo y mayor que 18") : console.log("El numero es negativo y menor que 18")
 
+//BLOQUE A
+
+//EJ2
+//Escribe el resultado exacto de cada línea
+
+console.log(typeof 7)
+console.log(typeof '7')
+console.log(typeof null)
+console.log('7' + 2)
+console.log('7' - 2)
+console.log(10 % 3)
+console.log(Number(''))
+console.log(Number('14px'))
+
 

@@ -68,4 +68,22 @@ function celToKel(celsius){
   return Number(kelvin.toFixed(2))
 }
 
+//BLOQUE A
+
+//EJ1:
+
+const nota = 9
+  if (nota >= 5) console.log('Aprobado')
+  if (nota >= 9) console.log('Sobresaliente')
+const etiqueta = nota >= 5 ? 'Superado' : 'Pendiente'
+console.log(etiqueta)
+
+//Con 9 va a salir sobresaliente, superado
+//Con 7, aprobado, superado
+//Con 4 va a salir Pendiente
+
+//EJ2:
+
+
+
 
