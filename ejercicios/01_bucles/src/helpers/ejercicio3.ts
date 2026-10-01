@@ -34,14 +34,52 @@ const alumnado : Alumno[] = [
 //Obten los nombres (solo los nombres) de todos los alumnos
 
 function obtenerNombres(alumnos : Alumno[]) {
-
   return alumnos.map( (alumno) => alumno.nombre )
-
 }
 
-const obtenerNombresV2 = (alumnos: Alumno[]) => alumnos.map( (alumno) => alumno.nombre ) 
+//const obtenerNombresV2 = (alumnos: Alumno[]) => alumnos.map( (alumno) => alumno.nombre ) 
 
 //-------- Inicializar ejercicio ---------
 
 console.log("El nombre de los alumnos es: ")
 console.log(obtenerNombres(alumnado))
+
+
+//Obtener media de cada alumno
+
+function obtenerMediaAlumno(alumnos: Alumno[]) {
+
+
+
+}
+
+//-------- Inicializar ejercicio ---------
+
+
+
+//Alumno con nota mas alta
+
+function obtenernotaMasAlta(alumnos: Alumno[]) {
+
+
+
+}
+
+//-------- Inicializar ejercicio ---------
+
+
+
+//Media global de la clase
+
+function obtenerMediaClase(alumnos: Alumno[]) {
+
+
+
+}
+
+//-------- Inicializar ejercicio ---------
+
+console.log("La media global de la clase es: ")
+console.log(obtenerMediaClase(alumnado))
+
+
