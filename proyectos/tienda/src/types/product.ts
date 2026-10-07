@@ -1,4 +1,3 @@
-
 //Un tipo descibe la forma de un dato
 export type Category = "monitors" | "GPU" | "audio" | "peripherals";
 

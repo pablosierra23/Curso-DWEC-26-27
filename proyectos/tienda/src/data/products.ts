@@ -1,6 +1,4 @@
-// TechStore Isaías FL · catálogo de ejemplo del curso
 import type { Product } from '../types/product';
-
 export const products: Product[] = [
   { id: 1, name: 'Teclado mecánico', price: 80, category: 'peripherals', stock: 5 },
   { id: 2, name: 'Ratón inalámbrico', price: 25, category: 'peripherals', stock: 0 },
