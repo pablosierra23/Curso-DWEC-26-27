@@ -56,4 +56,5 @@ products.reduce((totalProductsValue, product) => totalProductsValue + product.pr
 //
 
 // toSorted() <-- ordenacion en ascendente
+//
 // slice() <-- bueno   y     splice() <-- malo
