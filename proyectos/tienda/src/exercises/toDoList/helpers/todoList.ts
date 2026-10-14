@@ -75,7 +75,7 @@ export const removeDone = (list: Task[], id: number): Task[] => {
  */
 export function editTask(list: Task[], id: number, changes: Partial<Omit<Task, 'id'>>): Task[] {
 
-  return list.map(t => (t.id === id ? { ...t, ...changes } : t)
+  return list.map(t => (t.id === id ? { ...t, ...changes } : t))
 
 }
 
